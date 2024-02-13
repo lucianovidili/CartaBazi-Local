@@ -1,0 +1,11 @@
+runtime: go111
+
+handlers:
+# If the path is empty, show static index.html file
+#- url: /
+#  static_files: /static/index.html
+#  upload: index.html
+
+# Otherwise, find file in static directory
+- url: /static
+  static_dir: static

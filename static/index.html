@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carta Bazi</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Lobster" rel="stylesheet">
+    <script src="scripts/script.js" async></script>
+  </head>
+  <body>
+  <div class="container">
+  <div id="divContainerAll">
+    
+    <div class="c1">
+      <table id="tablePpal">
+        <tr>
+          <td id="tdDespCelebridades">
+          <nav>
+            <ul id="main">
+              <li id="celebridadesDespList">Carta Bazi de celebridades
+                <ul class="drop" id="dropCelebridades">
+                  <div>
+                  <li id="dlMessi" class="cDespList">Lionel Messi</li>
+                  <li id="dlMaradona" class="cDespList">Diego Maradona</li>
+                  <li id="dlZlatanillo" class="cDespList">Zlatan Ibrahimovic</li>
+                  <li id="dlGinobili" class="cDespList">Emanuel Ginóbili</li>
+                  <li id="dlCristina" class="cDespList">Cristina Kirchner</li>
+                  <li id="dlMacri" class="cDespList">Mauricio Macri</li>
+                  <li id="dlFrancisco" class="cDespList">El Papa Francisco</li>
+                  <li id="dlObama" class="cDespList">Barack Obama</li>
+                  <li id="dlTrump" class="cDespList">Donald Trump</li>
+                  <li id="dlMLKing" class="cDespList">Martin Luther King</li>
+                  <li id="dlMandela" class="cDespList">Nelson Mandela</li>
+                  <li id="dlMalala" class="cDespList">Malala</li>
+                  <li id="dlFavaloro" class="cDespList">René Favaloro</li>
+                  <li id="dlFridaKahlo" class="cDespList">Frida Kahlo</li>
+                  <li id="dlLehnon" class="cDespList">John Lennon</li>
+                  <li id="dlFMercury" class="cDespList">Freddie Mercury</li>
+                  <li id="dlJPSegundo" class="cDespList">Juan Pablo Segundo</li>
+                  <li id="dlMadreTeresa" class="cDespList">La Madre Teresa</li>
+                  <li id="dlJorgito" class="cDespList">Jorge Kurteff</li>
+                  <li id="dlMStreep" class="cDespList">Meryl Streep</li>
+                  <li id="dlBradPitt" class="cDespList">Brad Pitt</li>
+                  <li id="dlWillSmith" class="cDespList">Will Smith</li>
+                  <li id="dlEmmaWatson" class="cDespList">Emma Watson</li>
+                  <li id="dlCeratti" class="cDespList">Gustavo Cerati</li>
+                  <li id="dlSpinetta" class="cDespList">Luis Alberto Spinetta</li>
+                  </div>
+                </ul>
+              </li>
+              <div id="markerCelebridades" class="marker"></div>
+            </ul>
+          </nav>
+          </td>
+          <td id="tdImgBiodiseño">
+            <img src="images/biodisenio.png" alt="Imagen del logo de biodiseño" id="imgBiodiseño">
+          </td>
+          <td id="tdDespPilaresAnimales">
+          <nav>
+            <ul id="main">
+              <li id="pilaresDespList">Pilares
+                <ul class="drop" id="dropPilares">
+                  <div>
+                  <li id="dlEnvoltura" class="pDespList">Envoltura</li>
+                  <li id="dlTronco" class="pDespList">Tronco</li>
+                  <li id="dlDefensa" class="pDespList">Defensa</li>
+                  <li id="dlPoder" class="pDespList">Poder</li>
+                  </div>
+                </ul>
+              </li>
+              <li id="animalesDespList">Animales
+                <ul class="drop" id="dropAnimales">
+                  <div>
+                  <li id="dlRata" class="aDespList">Rata</li>
+                  <li id="dlBuey" class="aDespList">Buey</li>
+                  <li id="dlTigre" class="aDespList">Tigre</li>
+                  <li id="dlLiebre" class="aDespList">Liebre</li>
+                  <li id="dlDragon" class="aDespList">Dragón</li>
+                  <li id="dlSerpiente" class="aDespList">Serpiente</li>
+                  <li id="dlCaballo" class="aDespList">Caballo</li>
+                  <li id="dlCabra" class="aDespList">Cabra</li>
+                  <li id="dlMono" class="aDespList">Mono</li>
+                  <li id="dlGallo" class="aDespList">Gallo</li>
+                  <li id="dlPerro" class="aDespList">Perro</li>
+                  <li id="dlCerdo" class="aDespList">Cerdo</li>
+                  </div>
+                </ul>
+              </li>
+              <div id="markerPilaresAnimales" class="marker"></div>
+            </ul>
+          </nav>
+          </td>
+        </tr>
+      </table>
+      <p id="pTitle"><a href="links/pilares/pilares.html" id="aTitle">Carta Bazi:</a> Cálculo de los Cuatro Pilares</p>
+    </div>
+    
+    <p id="pCelebridad">Lionel Messi</p>
+
+    <div id="divFechaNac" class="c2">
+      <label id="labelFechaNac">Fecha de nacimiento:</label>
+      <select class="despList" id="despDiaNac"></select>
+      <select class="despList" id="despMesNac"></select>
+      <select class="despList" id="despAnoNac"></select>
+    </div>
+    <div id="divHoraNac" class="c3">
+      <label id="labelHoraNac">Hora de nacimiento:</label>
+      <select class="despList" id="despHoraNac"></select>
+      <label id="labelMinutosNac">Minutos:</label>
+      <select class="despList" id="despMinutosNac"></select>
+    </div>
+            
+    <div class="c4">
+      <p id="pDateInvalid"></p>
+      <div class="divBig" id="divBtnContainer">
+        <div class="divSmall">
+          <button id="btnCalcular">Calcular</button> 
+        </div>
+        <div class="divSmall">
+          <button id="btnR">R</button>
+        </div>
+      </div>
+    </div>
+    
+    <table id="tableAnimales">
+      <tr id="aPilaresRow">
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aEnvoltura">Envoltura</a>
+        </td>
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aTronco">Tronco</a>
+        </td>
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aDefensa">Defensa</a>
+        </td>
+        <td>
+          <a href="links/pilares/pilares.html" class="aPilares" id="aPoder">Poder</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img id="imgEnvoltura" alt="Imagen de la Envoltura" class="imgAnimal">
+        </td>
+        <td>
+          <img id="imgTronco" alt="Imagen del Tronco" class="imgAnimal">
+        </td>
+        <td>
+          <img id="imgDefensa" alt="Imagen de la Defensa" class="imgAnimal">
+        </td>
+        <td>
+          <img id="imgPoder" alt="Imagen del Poder" class="imgAnimal">
+        </td>
+      </tr>
+      <tr id="aAnimalsRow">
+        <td>
+          <a href="links/animales/animales.html" id="pEnvoltura" class="pClass"></a>
+        </td>
+        <td>
+          <a href="links/animales/animales.html" id="pTronco" class="pClass"></a>
+        </td>
+        <td>
+          <a href="links/animales/animales.html" id="pDefensa" class="pClass"></a>
+        </td>
+        <td>
+          <a href="links/animales/animales.html" id="pPoder" class="pClass"></a>
+        </td>
+      </tr>
+    </table>
+  
+    <div class="divBig" id="divFaceInsta">
+      <div class="divSmall">
+        <img src="images/facebook.png" alt="Imagen de Facebook" id="imgFacebook">
+        <img src="images/instagram.png" alt="Imagen de Instagram" id="imgInstagram">
+      </div>
+    </div>
+    <div class="divBig">
+      <div class="divSmall">
+        <img src="images/marca.png" alt="Imagen de la Marca Biodiseño" id="imgMarca">
+      </div>
+    </div>
+  </div>
+  </div>
+  <img src="images/papel-tapiz/fondo-verde-general.jpg" alt="Imagen de fondo verde" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;' id="imgDeFondo">
+  </body>
+</html>
